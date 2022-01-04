@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-3">
+            <div class="matn">
+                <h2 id="output">60</h2>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="matn">
+                <p>BPM</p>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="matn"><button id="start" onclick="PlaySound(bpm)">play</button></div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="range">
+                <button id="btn-neg" onclick="negetive()" >-</button>
+            </div>
+        </div>
+        <div class="col">
+            <div class="range">
+                <input type="range" id="range-m" min="40" max="218" step="1">
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="range">
+                <button id="btn-plus" onclick="plus()">+</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
